@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { EmptyState } from "@/components/empty-state";
 import { Pagination } from "@/components/pagination";
 import { SERVICE_SELECT, ServiceCard, type ServiceSummary } from "@/components/service-card";
-import { Alert, buttonStyles } from "@/components/ui";
+import { Alert } from "@/components/ui";
+import { buttonStyles } from "@/components/button-styles";
 import { fold, parseSearch } from "@/lib/market";
 import { createClient } from "@/lib/supabase/server";
 

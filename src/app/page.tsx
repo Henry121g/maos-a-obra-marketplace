@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { SERVICE_SELECT, ServiceCard, type ServiceSummary } from "@/components/service-card";
-import { buttonStyles } from "@/components/ui";
+import { buttonStyles } from "@/components/button-styles";
 import { createClient } from "@/lib/supabase/server";
 
 export default async function HomePage() {

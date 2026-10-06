@@ -2,7 +2,8 @@
 
 import { useActionState, useRef } from "react";
 import { createReport } from "@/app/denuncias/actions";
-import { Alert, buttonStyles, SubmitButton } from "./ui";
+import { buttonStyles } from "./button-styles";
+import { Alert, SubmitButton } from "./ui";
 
 const TARGET_LABEL = { servico: "este serviço", usuario: "este usuário", avaliacao: "esta avaliação", conversa: "esta conversa" };
 
