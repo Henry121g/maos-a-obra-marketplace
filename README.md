@@ -4,7 +4,7 @@
 > Nenhum serviço, prestador ou contratação é real. **Não há pagamentos**: valores de propostas são
 > apenas registrados e isso é indicado na interface.
 
-**Demonstração:** _pendente de deploy_ · **CI:** ver aba Actions
+**Demonstração:** [maos-a-obra-marketplace.vercel.app](https://maos-a-obra-marketplace.vercel.app) (contas de demonstração em configuração) · **CI:** ver aba Actions
 
 <!-- Screenshots reais serão adicionadas após o deploy. -->
 
