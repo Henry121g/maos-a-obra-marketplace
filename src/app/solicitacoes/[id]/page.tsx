@@ -57,7 +57,7 @@ export default async function RequestPage({ params, searchParams }: PageProps<"/
             <li
               key={s}
               aria-current={s === status ? "step" : undefined}
-              className={`rounded-full border px-3 py-1 ${!ended && i <= step ? "border-brand bg-brand text-brand-foreground" : "border-border text-muted"}`}
+              className={`rounded-full border px-3 py-1 ${!ended && i <= step ? "border-brand bg-brand-fill text-brand-foreground" : "border-border text-muted"}`}
             >
               {i + 1}. {STATUS_LABEL[s]}
             </li>
@@ -91,7 +91,7 @@ export default async function RequestPage({ params, searchParams }: PageProps<"/
                   <p className="flex flex-wrap justify-between gap-2">
                     <strong>{formatMoney(Number(p.price_cents))}</strong>
                     <span className="text-muted">
-                      {p.estimated_days ? `${p.estimated_days} dias · ` : ""}
+                      {p.estimated_days ? `${p.estimated_days} ${p.estimated_days === 1 ? "dia" : "dias"} · ` : ""}
                       {{ enviada: "Aguardando resposta", aceita: "Aceita", recusada: "Recusada", substituida: "Substituída" }[p.status as string]}
                     </span>
                   </p>
@@ -149,7 +149,7 @@ export default async function RequestPage({ params, searchParams }: PageProps<"/
           {messages?.length ? (
             <ol className="flex max-h-96 flex-col gap-2 overflow-y-auto">
               {messages.map((m) => (
-                <li key={m.id} className={`max-w-[85%] rounded-lg p-2 text-sm ${m.sender_id === viewer.id ? "self-end bg-brand text-brand-foreground" : "self-start bg-background"}`}>
+                <li key={m.id} className={`max-w-[85%] rounded-lg p-2 text-sm ${m.sender_id === viewer.id ? "self-end bg-brand-fill text-brand-foreground" : "self-start bg-background"}`}>
                   <span className="block text-xs opacity-80">{m.sender_id === viewer.id ? "Você" : names[m.sender_id] ?? "Moderação"} · {new Date(m.created_at).toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" })}</span>
                   <span className="whitespace-pre-wrap">{m.body}</span>
                 </li>
