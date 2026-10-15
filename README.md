@@ -6,7 +6,18 @@
 
 **Demonstração:** [maos-a-obra-marketplace.vercel.app](https://maos-a-obra-marketplace.vercel.app) (contas de demonstração em configuração) · **CI:** ver aba Actions
 
-<!-- Screenshots reais serão adicionadas após o deploy. -->
+
+## Telas
+
+<table>
+  <tr>
+    <td width="33%"><a href="docs/telas/busca-sem-acento.png"><img src="docs/telas/busca-sem-acento.png" alt="Busca sem acento encontrando “Instalação elétrica”"></a><br><sub>Busca sem acento encontrando “Instalação elétrica”</sub></td>
+    <td width="33%"><a href="docs/telas/contratacao-concluida.png"><img src="docs/telas/contratacao-concluida.png" alt="Contratação concluída: etapas, proposta aceita, conversa e avaliação"></a><br><sub>Contratação concluída: etapas, proposta aceita, conversa e avaliação</sub></td>
+    <td width="33%"><a href="docs/telas/servico.png"><img src="docs/telas/servico.png" alt="Página do serviço com avaliações"></a><br><sub>Página do serviço com avaliações</sub></td>
+  </tr>
+</table>
+
+<sub>Capturas com os dados fictícios da demonstração.</sub>
 
 ## O problema
 
