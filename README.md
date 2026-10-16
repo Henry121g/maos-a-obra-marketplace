@@ -9,6 +9,8 @@
 
 ## Telas
 
+▶ **[Vídeo da demonstração](docs/demo.mp4)** (1 a 2 min, com legenda em cada funcionalidade).
+
 <table>
   <tr>
     <td width="33%"><a href="docs/telas/busca-sem-acento.png"><img src="docs/telas/busca-sem-acento.png" alt="Busca sem acento encontrando “Instalação elétrica”"></a><br><sub>Busca sem acento encontrando “Instalação elétrica”</sub></td>
